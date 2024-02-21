@@ -49,7 +49,7 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .container {
@@ -98,4 +98,8 @@ input[type='submit']:hover {
   background-color: #a13d00;
   color: #a13d00;
   border-radius: 50%;
+}
+
+.result {
+  text-align: center;
 }
