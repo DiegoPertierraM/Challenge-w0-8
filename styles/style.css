@@ -56,7 +56,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
+  width: 350px;
   height: 90vh;
   background-color: rgb(255, 254, 237);
   padding-block: 20px;
@@ -90,14 +90,6 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   background-color: #cd4506;
-}
-
-.custom-checkbox {
-  height: 15px;
-  width: 15px;
-  background-color: #a13d00;
-  color: #a13d00;
-  border-radius: 50%;
 }
 
 .result {
