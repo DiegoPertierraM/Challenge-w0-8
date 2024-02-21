@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario Pizza</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <script src="scripts/index.js" defer></script>
   </head>
   <body>
@@ -18,18 +19,18 @@
             <h2>Tipo</h2>
             <label for="pizza-size">
               Tamaño de pizza
-              <select name="pizza-size" id="">
-                <option value="small">Pequeña</option>
-                <option value="medium">Mediana</option>
-                <option value="large">Grande</option>
+              <select name="pizza-size" id="pizza-size">
+                <option value="pequeña">Pequeña</option>
+                <option value="mediana">Mediana</option>
+                <option value="grande">Grande</option>
               </select>
             </label>
             <label for="bread-options">
               Tipo de masa
-              <select name="bread-options" id="">
-                <option value="">Fina</option>
-                <option value="">Gruesa</option>
-                <option value="">Pan</option>
+              <select name="bread-options" id="bread-options">
+                <option value="fina">Fina</option>
+                <option value="gruesa">Gruesa</option>
+                <option value="pan">Pan</option>
               </select>
             </label>
           </section>
@@ -40,7 +41,7 @@
                 <input
                   type="checkbox"
                   name="pepperoni"
-                  id=""
+                  id="pepperoni"
                   class="custom-checkbox"
                 />
                 Pepperoni
@@ -49,7 +50,7 @@
                 <input
                   type="checkbox"
                   name="mushrooms"
-                  id=""
+                  id="mushrooms"
                   class="custom-checkbox"
                 />
                 Setas
@@ -58,7 +59,7 @@
                 <input
                   type="checkbox"
                   name="onion"
-                  id=""
+                  id="onion"
                   class="custom-checkbox"
                 />
                 Cebolla
@@ -67,7 +68,7 @@
                 <input
                   type="checkbox"
                   name="pepper"
-                  id=""
+                  id="pepper"
                   class="custom-checkbox"
                 />
                 Pimiento
@@ -76,17 +77,17 @@
                 <input
                   type="checkbox"
                   name="pineapple"
-                  id=""
+                  id="pineapple"
                   class="custom-checkbox"
                 />
                 Piña
               </label>
             </div>
           </section>
-          <input type="submit" value="Pedir pizza" />
+          <input type="submit" value="Pedir pizza" class="send-btn" />
         </form>
       </main>
-      <p hidden>Resultado</p>
+      <p class="result">Resultado</p>
     </div>
   </body>
 </html>
