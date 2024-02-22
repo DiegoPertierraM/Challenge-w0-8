@@ -21,6 +21,7 @@ export const orderPizza = () => {
     } else {
       result.innerHTML = 'Debes introducir al menos 1 ingrediente!';
     }
+    result.removeAttribute('hidden');
   };
   sendBtn.addEventListener('click', onSubmit);
 };
